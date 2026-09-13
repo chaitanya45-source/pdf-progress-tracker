@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.react-pdf__Page__annotations {
+    display: none !important;
+}
+
+.spoken-highlight {
+    background-color: #facc15 !important;
+    color: black !important;
+    border-radius: 3px;
+    padding: 0;
+}
