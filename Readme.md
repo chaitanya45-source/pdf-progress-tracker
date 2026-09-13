@@ -18,7 +18,7 @@ Dashboard
 
 <p align="center">
 
-<img src="./images/dashboard.png" width="850" alt="PDFTracker Dashboard">{=html}
+<img src="./images/dashboard.png" width="850" alt="PDFTracker Dashboard">
 
 </p>
 
@@ -26,7 +26,7 @@ PDF Library
 
 <p align="center">
 
-<img src="./images/library.png" width="850" alt="PDFTracker PDF Library">{=html}
+<img src="./images/library.png" width="850" alt="PDFTracker PDF Library">
 
 </p>
 
@@ -34,7 +34,7 @@ PDF Reader
 
 <p align="center">
 
-<img src="./images/pdfView.png" width="850" alt="PDFTracker PDF Reader">{=html}
+<img src="./images/pdfView.png" width="850" alt="PDFTracker PDF Reader">
 
 </p>
 
