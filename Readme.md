@@ -38,6 +38,10 @@ PDF Reader
 
 </p>
 
+🔗 **[Live Demo](https://pdf-progress-tracker.vercel.app)**
+
+---
+
 ✨ Key Highlights
 
 🎙️ Real-time voice-tracked reading
