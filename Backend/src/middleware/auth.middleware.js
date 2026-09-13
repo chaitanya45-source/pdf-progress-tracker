@@ -4,19 +4,21 @@ import wrapAsync from "../utils/tryCatchWrapper.js";
 
 export const authMiddleware = wrapAsync(async (req, res, next) => {
     const token = req.cookies.accessToken;
-    if (!token){
-        throw new Error("Unauthorized");
+
+    if (!token) {
+        return res.status(401).json({ message: "Unauthorized" });
     }
+
     try {
         const decodedToken = verifyToken(token);
         const user = await findUserById(decodedToken);
-        if (!user){
+        if (!user) {
             throw new Error("Unauthorized");
         }
         req.user = user;
         req.userId = user._id;
         next();
     } catch (error) {
-        return res.status(401).json({message: "Unauthorized"});
-    } 
+        return res.status(401).json({ message: "Unauthorized" });
+    }
 })
